@@ -88,4 +88,4 @@ async function run(){
 // })
 run()
 
-app.listen(4200)
+app.listen(process.env.PORT || 4200)
